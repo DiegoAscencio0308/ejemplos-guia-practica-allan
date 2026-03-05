@@ -1,0 +1,1 @@
+sistema de almacenamiento de de registro de ventas e inventario con organizacion bariable compuesta el cual realizara el registro de la compra, actualizara el inventario y hara el cobro solicitado
