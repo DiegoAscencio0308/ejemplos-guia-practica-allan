@@ -10,7 +10,7 @@ margin: 0;
 }
 /* Estilo de la tarjeta blanca del formulario */
 .login-container {
-background-color: rgb(78, 78, 78);
+background-color: rgb(230, 230, 230);
 padding: 30px;
 border-radius: 8px;
 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
