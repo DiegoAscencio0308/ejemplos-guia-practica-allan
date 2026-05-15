@@ -38,3 +38,24 @@ INSERT INTO productos (nombre_producto, categoria, stock, precio) VALUES
 
 -- Eliminación de producto descontinuado:
  DELETE FROM productos WHERE id = 4;
+
+ -- agregamos los productos no existentes 
+ INSERT INTO productos (id, nombre_producto, categoria, stock, precio) VALUES
+ ('teclado mecanico', 'Accesorios', 45, 85.99);
+ ('monitor gamer de 24 pulgadas', 'monitores', 10, 149.99),
+ ('cable VGA de 1 metro', 'cableado', 18, 12.99);
+
+--acyualizamos lo datos del teclado
+ UPDATE productos
+SET stock = 45
+WHERE id = 9;
+
+--actualizamos el precio del monitor y el stock
+UPDATE productos
+SET precio = 149.99,
+    stock = 10
+WHERE id = 10;
+
+--eliminamos lo obsoleto, el cable vga
+DELETE FROM productos
+WHERE id = 11;
