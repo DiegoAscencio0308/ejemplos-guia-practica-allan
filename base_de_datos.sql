@@ -95,8 +95,7 @@ INSERT INTO categorias (nombre_categoria) VALUES
 ('Accesorios'),
 ('Oficina');
 
--- 5. Inserción de Productos (Observa cómo ahora vinculamos usando números
-enteros)
+-- 5. Inserción de Productos (Observa cómo ahora vinculamos usando números enteros)
 INSERT INTO productos (nombre_producto, categoria_id, stock, precio) VALUES
 ('Laptop Dell Inspiron 15', 1, 15, 720.00),
 ('Mouse Inalámbrico Logitech', 2, 25, 12.00);
