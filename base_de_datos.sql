@@ -120,8 +120,7 @@ INNER JOIN categorias c ON p.categoria_id = c.id WHERE c.nombre_categoria = 'Acc
 -- Tarjeta 1: Total de artículos distintos en el catálogo (Muestra variedad de productos)
 SELECT COUNT(id) AS total_productos_catalogo FROM productos;
 
--- Tarjeta 2: Valor económico total del inventario (Multiplica precio por existencias de cada fila
-y las suma)
+-- Tarjeta 2: Valor económico total del inventario (Multiplica precio por existencias de cada fila y las suma)
 SELECT SUM(precio * stock) AS valor_monetario_inventario FROM productos;
 
 -- Tarjeta 3: Precio del producto estrella o de mayor gama del inventario
