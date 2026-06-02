@@ -1,38 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sistema de Inventario - Diego_Ascencio </title>
-</head>
-<body>
-
-	<link rel="stylesheet" href="style.css">
-
-	<header>
-    	<h1>Bienvenido al Sistema de Inventario y Ventas.</h1>
-			<h1>prueba del cambio de rama en el modulo de login</h1>
-				<div class="login-container">
-					<h2>Acceso al Sistema de Inventario</h2>
-						<form action="#" method="POST">
-							<label for="usuario">Usuario:</label>
-								<input type="text" id="usuario" name="usuario" required>
-									<br><br>
-									<label for="password">Contraseña:</label>
-								<input type="password" id="password" name="password" required>
-							<br><br>
-						<button type="submit">Ingresar al Sistema</button>
-					</form>
-				</div>
-
-    </header>
-
-</body>
-</html>
-
-<!--//segunta estructura sugerida en gui 14//
-
-<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -78,4 +44,3 @@ button:hover { background-color: #1d4ed8; }
 </div>
 </body>
 </html>
-//-->
