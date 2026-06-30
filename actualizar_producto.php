@@ -34,3 +34,4 @@ header("Location: inventario.php");
 exit();
 }
 ?>
+

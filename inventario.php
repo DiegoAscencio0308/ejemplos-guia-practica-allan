@@ -92,6 +92,7 @@ $claseStock = ($fila['stock'] < 10) ? 'stock-bajo' : '';
 <a href="editar_producto.php?id=<?php echo $fila['id']; ?>" class="btn-editar">✏️
 Editar</a>
 
+
 <a href="eliminar_producto.php?id=<?php echo $fila['id']; ?>"
 class="btn-eliminar"
 onclick="return confirm('¿Estás absolutamente seguro de eliminar el producto: <?php echo $fila['nombre_producto']; ?>?');">
